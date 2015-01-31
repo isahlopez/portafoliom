@@ -1,0 +1,85 @@
+body
+{
+	background: #ccc;
+}
+
+nav
+{
+	background: rgb(96, 150, 150);
+	position: relative;
+
+	text-align: right;
+	padding-right: 2em;
+
+}
+
+nav ul
+{
+	list-style: none;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 1em 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+}
+section
+{
+	background: black;
+	padding-top: 1em;
+	margin: 0;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+section .datos h1
+{
+	color: white;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+
+section .datos img
+{
+	width: 160px;
+	height: 160px;
+  	border-radius: 50%;
+  	padding: 0.5em;
+  	border: 1.2px solid #ccc;
+  	margin: 0 auto 0 auto;
+	max-height: 350px;
+	margin-bottom: 3em 3em 5em 0;
+	
+	position: absolute;
+
+
+}
+
+section .datos p
+{
+	text-align: center;
+	color: white;
+
+
+}
+
+.redes .linksoptions
+{
+	list-style: none;
+}
+
+.redes .linksoptions li
+{
+	display: inline-block;
+}
+
